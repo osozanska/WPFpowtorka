@@ -1,0 +1,17 @@
+﻿<Window x:Class="PrzedSprawdzianem.okno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrzedSprawdzianem"
+        mc:Ignorable="d"
+        Title="okno" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tytuł: " HorizontalAlignment="Left" Margin="43,34,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.523,0.326"/>
+        <TextBox x:Name="TytulW" HorizontalAlignment="Left" Margin="106,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="656" Height="25"/>
+        <Label Content="Autor: " HorizontalAlignment="Left" Margin="43,85,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.523,0.326"/>
+        <TextBox x:Name="AutorW" HorizontalAlignment="Left" Margin="106,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="656" Height="25"/>
+        <Button x:Name="Anuluj" Content="Anuluj" HorizontalAlignment="Left" Margin="640,137,0,0" VerticalAlignment="Top" Height="32" Width="122" Click="Anuluj_Click" FontSize="16"/>
+        <Button x:Name="Zapisz" Content="Zapisz" HorizontalAlignment="Left" Margin="502,137,0,0" VerticalAlignment="Top" Height="32" Width="122" Click="Zapisz_Click" FontSize="16"/>
+    </Grid>
+</Window>
